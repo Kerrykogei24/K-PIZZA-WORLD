@@ -1,0 +1,14 @@
+   body {
+       font-family: sans-serif;
+   }
+   
+   .logo {
+       width: 40px;
+   }
+   
+   #head {
+       background-image: url("../images/david-benes-zsRhTW3qrmo-unsplash.jpg");
+       background-size: cover;
+       height: 100vh;
+       background-position: center;
+   }
