@@ -12,6 +12,7 @@
     <meta name="description" content="">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-3.5.1.js"></script>
@@ -61,12 +62,113 @@
             <a href=""> <button class="btn btn-secondary">LEARN MORE</button></a>
 
         </div>
-        <div class="container">
+        <div id="price">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="#order"> <img src="images/product/mache1.jpg" alt=""></a>
+                        <p>Margherita Pizza</p>
+                    </div>
+                </div>
 
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="#order"> <img src="images/product/peppo2.jpeg" alt=""></a>
+                        <p>Pepperoni Pizza</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="#order"> <img src="images/product/BBQ-Chicken-Pizza-4.jpg" alt=""></a>
+                        <p>BBQ Chicken Pizza</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="#order"> <img src="/images/product/ha.jpg" alt=""></a>
+                        <p>Hawaiian Pizza.</p>
+                    </div>
+                </div>
 
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="#order"> <img src="/images/product/rotm-meatlovers.jpg" alt=""></a>
+                        <p>Meat-Lover's Pizza.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="#order"> <img src="/images/product/alfredo-pizza-header.jpg" alt=""></a>
+                        <p>Chicken Alfredo Pizza</p>
+
+                    </div>
+                </div>
+            </div>
         </div>
+        <div id="order">
+            <form action="">
+                <label for="">Pizza</label>
+                <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                    <option selected>pick your taste</option>
+                    <option value="1">Margherita Pizza</option>
+                    <option value="2">Pepperoni Pizza</option>
+                    <option value="3">BBQ Chicken Pizza</option>
+                    <option value="4">Hawaiian Pizza.</option>
+                    <option value="5">Meat-Lover's Pizza</option>
+                    <option value="6">Chicken Alfredo Pizza</option>
+                  </select>
+
+                <label for="size">SIZE</label>
+                <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                    <option selected>select size</option>
+                    <option value="1400">Large - ksh 1400</option>
+                    <option value="1000">Medium - ksh 1000</option>
+                    <option value="700">large - ksh 700</option>
+                  </select>
+                <label for="size">SIZE</label>
+                <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                      <option selected>Crust</option>
+                      <option value="200">Crispy ksh 200</option>
+                      <option value="200">Stuffed ksh 200</option>
+                      <option value="0">Gluten-free ksh 200</option>
+                    </select>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Mushrooms</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Sausage.</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Bacon</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Black olives</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Green peppers</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Onions</label>
+                </div>
+            </form>
+        </div>
+
+
     </div>
     <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
+</div>
+<script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
