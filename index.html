@@ -91,55 +91,7 @@
                 </div>
             </div>
         </div>
-        <!-- <div id="price">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <a href="#order"> <img src="images/product/mache1.jpg" alt=""></a>
-                        <p>Margherita Pizza</p>
-                    </div>
-                </div>
 
-                <div class="col-md-4">
-                    <div class="card">
-                        <a href="#order"> <img src="images/product/peppo2.jpeg" alt=""></a>
-                        <p>Pepperoni Pizza</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img class="card-img-top" src="images/rahul-upadhyay-yDKHJxfiWDk-unsplash.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">K_PIZZA WORLD</h5>
-                            <p class="card-text">Pepperoni Pizza ksh 1400/=</p>
-                            <a href="#order" class="btn btn-primary">ORDER</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <a href="#order"> <img src="images/product/ha.jpg" alt=""></a>
-                        <p>Hawaiian Pizza.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card">
-                        <a href="#order"> <img src="images/product/rotm-meatlovers.jpg" alt=""></a>
-                        <p>Meat-Lover's Pizza.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <a href="#order"> <img src="images/product/alfredo-pizza-header.jpg" alt=""></a>
-                        <p>Chicken Alfredo Pizza</p>
-
-                    </div>
-                </div>
-            </div>
-        </div> -->
 
 
         <div id="order">
@@ -151,7 +103,7 @@
                         <h3>ORDER</h3>
                         <form action="">
                             <label for="name">NAME</label>
-                            <input type="text" class="form-control" name="name" id="name" required>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="ENTER NAME" required>
                             <label for="">Pizza</label>
                             <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" required>
                              
@@ -178,6 +130,8 @@
                       <option value="200">Stuffed ksh 130</option>
                       <option value="0">Gluten-free</option>
                     </select>
+                            <label for="number">NO OF PIZZA</label>
+                            <input type="number" class="form-control" name="pizza-no" id="pizza-no" placeholder="NO OF PIZZA">
                             <label for="topping">TOPPINGS</label>
                             <div class="row">
                                 <div class="form-check">
@@ -211,8 +165,9 @@
 
                         </form>
                     </div>
-                    <div class="col-md-3"></div>
                 </div>
+                <div class="col-md-3"></div>
+
             </div>
         </div>
 
@@ -254,48 +209,54 @@
                 </div>
                 <div class="col-md-2"></div>
             </div>
-            <div class="row">
+        </div>
+        <div class="row">
 
-                <div class="col-md-4">
+            <div class="col-md-4">
+                <div id="deliveryoption">
                     <div class="jumbotron">
-                        <div id="delivery">
 
-                            <h5>- - - - - - <img src="images/pizza (1).png" class="logo" alt=""> - - - - - -</h5>
-                            <h2> Hey
-                                <span class="name"> here is your order.</span> Your total cost is <span class="total"></span>
 
-                            </h2>
-                            <button type="submit" class="btn btn-warning">PICK Up</button>
-                            <button type="submit" class="btn btn-warning">LETs DELIVERY</button>
-                        </div>
+                        <h5>- - - - - - <img src="images/pizza (1).png" class="logo" alt=""> - - - - - -</h5>
+                        <h2> Hey
+                            <span class="name"> here is your order.</span> Your total cost is <span class="total"></span>
+
+                        </h2>
+                        <button type="submit" class="btn btn-warning">PICK Up</button>
+                        <button type="submit" class="btn btn-warning">LETs DELIVERY</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+                <div id="delivery">
+                    <div class="jumbotron">
+
+                        <h5>- - - - - - <img src="images/pizza (1).png" class="logo" alt=""> - - - - - -</h5>
+                        <h2> Hey
+                            <span class="name"> here is your order.</span> Your total cost is <span class="total"></span> </h2>
+
+                        <p>You were charged ksh 200 for the delivery <br> for more details contact us on +254723424164</p>
+                        <button type="submit" class="btn btn-warning">CONFIRM</button>
                     </div>
 
                 </div>
-                <div class="col-md-4">
+            </div>
+            <div class="col-md-4">
+                <div id="pick">
                     <div class="jumbotron">
-                        <div id="pick">
-                            <h5>- - - - - - <img src="images/pizza (1).png" class="logo" alt=""> - - - - - -</h5>
-                            <h2> Hey
-                                <span class="name"> here is your order.</span> Your total cost is <span class="total"></span> </h2>
 
-                            <p>You were charged ksh 200 for the delivery <br> for more details contact us on +254723424164</p>
-                        </div>
+                        <h5>- - - - - - <img src="images/pizza (1).png" class="logo" alt=""> - - - - - -</h5>
+                        <h2> Hey
+                            <span class="name"> here is your order.</span> Your total cost is <span class="total"></span> </h2>
                         <button type="submit" class="btn btn-warning">CONFIRM</button>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="jumbotron">
-                        <div id="pick">
-                            <h5>- - - - - - <img src="images/pizza (1).png" class="logo" alt=""> - - - - - -</h5>
-                            <h2> Hey
-                                <span class="name"> here is your order.</span> Your total cost is <span class="total"></span> </h2>
 
-                        </div>
-                        <button type="submit" class="btn btn-warning">CONFIRM</button>
-                    </div>
                 </div>
             </div>
         </div>
+
         <div id="contact">
             <div class="jumbotron">
                 <div class="row">
@@ -328,6 +289,7 @@
 
 
             <script src="js/bootstrap.min.js"></script>
+        </div>
 </body>
 
 </html>
