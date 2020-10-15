@@ -46,6 +46,26 @@ body {
     margin-top: 60px;
 }
 
+#order {
+    background-image: url("../images/david-benes-zsRhTW3qrmo-unsplash.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#order .jumbotron {
+    margin-top: 60px;
+    background: rgba(19, 15, 27, 0.9);
+    color: #fff;
+}
+
+.jumbotron {
+    background-color: rgba(19, 15, 27, 0.9);
+    color: #fff;
+    text-align: center;
+}
+
 
 /* 
 body {
