@@ -11,6 +11,7 @@
        background-size: cover;
        height: 100vh;
        background-position: center;
+       background-attachment: fixed;
    }
    
    .card img {
@@ -19,4 +20,28 @@
    
    .card {
        width: 300PX;
+   }
+   
+   .land {
+       text-align: center;
+       color: white;
+       margin-top: 30%;
+   }
+   
+   .land p {
+       font-size: 30px;
+       font-family: italic;
+   }
+   
+   .about-meso {
+       text-align: center;
+       margin-top: 5%;
+   }
+   
+   .about .card {
+       width: 200px;
+   }
+   
+   #about {
+       margin-top: 60px;
    }
