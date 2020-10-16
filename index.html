@@ -161,7 +161,7 @@
                                     <label class="topping" for="topping">Onions</label>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-warning">SELECT</button>
+                            <button type="submit" class="btn btn-warning" id="firstselect">ORDER</button>
 
                         </form>
                     </div>
@@ -204,7 +204,7 @@
                             </tbody>
                         </table>
                         <button type="submit" class="btn btn-warning">ADDLIST</button>
-                        <button type="submit" class="btn btn-warning">CHECKOUT</button>
+                        <button type="submit" class="btn btn-warning" id="secondselect">CHECKOUT</button>
                     </div>
                 </div>
                 <div class="col-md-2"></div>
@@ -222,8 +222,8 @@
                             <span class="name"> here is your order.</span> Your total cost is <span class="total"></span>
 
                         </h2>
-                        <button type="submit" class="btn btn-warning">PICK Up</button>
-                        <button type="submit" class="btn btn-warning">LETs DELIVERY</button>
+                        <button type="submit" class="btn btn-warning" id="pickup">PICK Up</button>
+                        <button type="submit" class="btn btn-warning" id="letsdeliver">LETs DELIVERY</button>
                     </div>
                 </div>
 
@@ -256,11 +256,30 @@
                 </div>
             </div>
         </div>
+        <div class="col-md-4">
+            <div id="pickup2">
+                <div class="jumbotron">
 
-        <div id="contact">
-            <div class="jumbotron">
-                <div class="row">
-                    <div class="col-md-4">
+                    <h5>- - - - - - <img src="images/pizza (1).png" class="logo" alt=""> - - - - - -</h5>
+                    <p>PLEASE ENTER DELIVERY DELAILS </p>
+                    <div class="joker">
+                        <label for="phone">LOCATION</label>
+                        <input type="text" class="form-group" name="location" required>
+                    </div>
+                    <div class="joker">
+                        <label for=" phone ">PHONE</label>
+                        <input type="number " class="form-group " required>
+                    </div>
+                    <button type="submit " class="btn btn-warning" id="thirdsubmit">CONFIRM</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="contact ">
+            <div class="jumbotron ">
+                <div class="row ">
+                    <div class="col-md-4 ">
                         <h4>K_PIZZA WORLD</h4>
                         <p>NAKURU,KENYA. <br>+254723424164
                         </p>
@@ -268,7 +287,7 @@
 
 
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 ">
                         <h4>K_PIZZA WORLD</h4>
                         <p>NAIROBI,KENYA. <br>+254723424164
                         </p>
@@ -276,9 +295,9 @@
 
 
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 ">
                         <h4>LOCATION</h4>
-                        <a href="https://goo.gl/maps/Jc8Rz5Z5ToEposKM9"><img src="/images/Screenshot from 2020-10-15 20-41-03.png" alt="" width="250px"></a>
+                        <a href="https://goo.gl/maps/Jc8Rz5Z5ToEposKM9 "><img src="/images/Screenshot from 2020-10-15 20-41-03.png " alt=" " width="250px "></a>
 
                     </div>
                 </div>
@@ -288,7 +307,7 @@
 
 
 
-            <script src="js/bootstrap.min.js"></script>
+            <script src="js/bootstrap.min.js "></script>
         </div>
 </body>
 
