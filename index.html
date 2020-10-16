@@ -15,8 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/script.js"></script>
+
 </head>
 
 <body>
@@ -107,24 +106,24 @@
                             <label for="">Pizza</label>
                             <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" required>
                              
-                    <option selected id="pizza-type"></option>
-                    <option value="1">Margherita Pizza</option>
-                    <option value="2">Pepperoni Pizza</option>
-                    <option value="3">BBQ Chicken Pizza</option>
-                    <option value="4">Hawaiian Pizza.</option>
-                    <option value="5">Meat-Lover's Pizza</option>
-                    <option value="6">Chicken Alfredo Pizza</option>
+                    <option class="form-group" id="pizza-type"></option>
+                    <option value="pizza1">Margherita Pizza</option>
+                    <option value="pizza2">Pepperoni Pizza</option>
+                    <option value="pizza3">BBQ Chicken Pizza</option>
+                    <option value="pizza4">Hawaiian Pizza.</option>
+                    <option value="pizza5">Meat-Lover's Pizza</option>
+                    <option value="pizza6">Chicken Alfredo Pizza</option>
                   </select>
 
                             <label for="size">SIZE</label>
-                            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" required>
-                    <option selected id="size of pizza"></option>
+                            <select class="custom-select my-1 mr-sm-2" id="size" required>
+                    <option  id="size"></option>
                     <option value="large">Large - ksh 1400</option>
                     <option value="medium">Medium - ksh 1000</option>
-                    <option value="small">large - ksh 700</option>
+                    <option value="small">small- ksh 700</option>
                   </select>
-                            <label for="size">CRUST</label>
-                            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                            <label for="crust">CRUST</label>
+                            <select class="custom-select my-1 mr-sm-2" id="crust">
                       <option selected id="crust"></option>
                       <option value="crispy">Crispy ksh 200</option>
                       <option value="stuffed">Stuffed ksh 130</option>
@@ -161,7 +160,7 @@
                                     <label class="topping" for="topping">Onions</label>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-warning" id="firstselect" onclick="orderNow()">ORDER</button>
+                            <button type="button" class="btn btn-warning" id="firstselect" onclick="orderNow()">ORDER</button>
 
                         </form>
                     </div>
@@ -280,9 +279,6 @@
         <div id="contact ">
 
 
-
-
-
             <div class="jumbotron ">
                 <div class="row ">
                     <div class="col-md-4 ">
@@ -313,8 +309,10 @@
 
 
 
-            <script src="js/bootstrap.min.js "></script>
         </div>
+        <script src="js/jquery-3.5.1.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/bootstrap.min.js "></script>
 </body>
 
 </html>
