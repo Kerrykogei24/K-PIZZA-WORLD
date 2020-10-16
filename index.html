@@ -236,6 +236,7 @@
                         <h5>- - - - - - <img src="images/pizza (1).png" class="logo" alt=""> - - - - - -</h5>
                         <h2> Hey
                             <span class="name"> here is your order.</span> Your total cost is <span class="total"></span> </h2>
+                        <p>your Order will be deliverd <span class="location"></span> Our rider will call you on <span class="phone"></span></p>
 
                         <p>You were charged ksh 200 for the delivery <br> for more details contact us on +254723424164</p>
                         <button type="submit" class="btn btn-warning" onclick="deliverNow()">CONFIRM</button>
@@ -264,11 +265,11 @@
                     <p>PLEASE ENTER DELIVERY DELAILS </p>
                     <div class="joker">
                         <label for="phone">LOCATION</label>
-                        <input type="text" class="form-group" name="location" required>
+                        <input type="text" class="form-group" name="location" id="location" required>
                     </div>
                     <div class="joker">
                         <label for=" phone ">PHONE</label>
-                        <input type="number " class="form-group " required>
+                        <input type="number " class="form-group" id="phone" required>
                     </div>
                     <button type="submit " class="btn btn-warning" id="thirdsubmit" onclick="backToOrder()">CONFIRM</button>
                 </div>
@@ -277,6 +278,11 @@
         </div>
 
         <div id="contact ">
+
+
+
+
+
             <div class="jumbotron ">
                 <div class="row ">
                     <div class="col-md-4 ">
