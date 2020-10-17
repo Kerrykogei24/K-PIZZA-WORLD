@@ -106,36 +106,40 @@
                             <label for="">Pizza</label>
                             <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" required>
                              
-                    <option class="form-group" id="pizza-type"></option>
-                    <option value="pizza1">Margherita Pizza</option>
-                    <option value="pizza2">Pepperoni Pizza</option>
-                    <option value="pizza3">BBQ Chicken Pizza</option>
-                    <option value="pizza4">Hawaiian Pizza.</option>
-                    <option value="pizza5">Meat-Lover's Pizza</option>
-                    <option value="pizza6">Chicken Alfredo Pizza</option>
+                    <option class="form-group" id="pizzatype"></option>
+                    <option value="Margherita Pizza">Margherita Pizza</option>
+                    <option value="Pepperoni Pizza">Pepperoni Pizza</option>
+                    <option value="BBQ Chicken Pizza">BBQ Chicken Pizza</option>
+                    <option value="Hawaiian Pizza.">Hawaiian Pizza.</option>
+                    <option value="Meat-Lover's Pizza">Meat-Lover's Pizza</option>
+                    <option value="Chicken Alfredo Pizza">Chicken Alfredo Pizza</option>
                   </select>
 
                             <label for="size">SIZE</label>
                             <select class="custom-select my-1 mr-sm-2" id="size" required>
                     <option  id="size"></option>
-                    <option value="large">Large - ksh 1400</option>
-                    <option value="medium">Medium - ksh 1000</option>
-                    <option value="small">small- ksh 700</option>
+                    <option>Large</option>
+                    <option>Medium</option>
+                    <option>small</option>
                   </select>
                             <label for="crust">CRUST</label>
                             <select class="custom-select my-1 mr-sm-2" id="crust">
                       <option selected id="crust"></option>
-                      <option value="crispy">Crispy ksh 200</option>
-                      <option value="stuffed">Stuffed ksh 130</option>
-                      <option value="gluten-free">Gluten-free</option>
+                      <option value="crispy">Crispy</option>
+                      <option value="stuffed">Stuffed </option>
+                      <option value="gluten-free">Gluten</option>
                     </select>
                             <label for="number">NO OF PIZZA</label>
                             <input type="number" class="form-control" name="pizza-no" id="pizza-no" placeholder="NO OF PIZZA">
                             <label for="topping">TOPPINGS</label>
                             <div class="row">
                                 <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="toppings" value="Mushrooms" id="mushrooms">
+                                    <label class="form-check-label" for="mushrooms">Mushroom</label>
+                                </div>
+                                <div class="form-check">
                                     <input type="checkbox" class="form-check-input" id="mushroom" value="mushroom" name="topping">
-                                    <label class="topping" for="exampleCheck1">Mushrooms</label>
+                                    <label class="form-check-label" for="exampleCheck1">Mushrooms</label>
                                 </div>
                                 <div class="form-check">
                                     <input type="checkbox" class="form-check-input" id="sausage" value="sausage" name="topping">
@@ -160,7 +164,7 @@
                                     <label class="topping" for="topping">Onions</label>
                                 </div>
                             </div>
-                            <button type="button" class="btn btn-warning" id="firstselect" onclick="orderNow()">ORDER</button>
+                            <button type="submit" class="btn btn-warning" id="firstselect" onclick="orderNow()">ORDER</button>
 
                         </form>
                     </div>
