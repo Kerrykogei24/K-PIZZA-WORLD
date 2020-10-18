@@ -145,6 +145,16 @@ h4,
     padding: 40px 50px;
 }
 
+.order h5,
+h3 {
+    text-align: center;
+    color: #fff;
+}
+
+#yourorder {
+    text-align: center;
+}
+
 
 /* 
 body {
