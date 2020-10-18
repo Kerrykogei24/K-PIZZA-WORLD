@@ -67,11 +67,12 @@ body {
     text-align: center;
 }
 
-#checkoutdetails,
-#delivery,
+#yourorder,
+#deliver,
 #pick,
-#deliveryoption,
-#pickup2 {
+#deliveryConfirmation,
+#pickUpConfirmation,
+#delivery {
     display: none;
 }
 

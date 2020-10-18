@@ -91,243 +91,313 @@
             </div>
         </div>
 
+        <section class="order" id="order">
+            <div class="jumbotron">
+                <form id="orders">
+                    <div class="row">
+                        <div class="col-md-6">
 
-
-        <div id="order">
-            <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6">
-                    <div class="jumbotron">
-
-                        <h5>- - - - - - <img src="images/pizza (1).png" class="logo" alt=""> - - - - - -</h5>
-                        <h3>ORDER</h3>
-                        <form action="">
+                            <h5>- - - - - - <img src="images/pizza (1).png" class="logo" alt=""> - - - - - -</h5>
                             <div class="form-group">
-                                <label for="name">NAME</label>
-                                <input type="text" class="form-control" name="name" id="name" placeholder="ENTER NAME" required>
+                                <label for="name">Your Name:</label>
+                                <input type="text" class="form-control" id="name" placeholder="Name..." required>
+                            </div>
+                            <h5>pick your taste</h5>
+                            <div class="form-group">
+                                <label for="pizza-flavor">Pizza flavor</label>
+                                <select class="form-control" id="pizza-flavor" required>
+                                        <option>Bbq Beef</option>
+                                        <option>Chicken Tikka</option>
+                                        <option>Grilled Pork</option>
+                                        <option>Hawaiian</option>
+                                        <option>Margharita</option>
+                                        <option>Marinara</option>
+                                        <option>Mushroom</option>
+                                        <option>Original Veggie</option>
+                                        <option>Oyster</option>
+                                        <option>Pepperoni</option>
+                                        <option>Pulled Pork</option>
+                                    </select>
                             </div>
                             <div class="form-group">
-                                <label for="">Pizza</label>
-                                <select class="form-control" id="pizzatype" required>
-                               
-                                    <option  ></option>
-                                    <option value="Margherita Pizza">Margherita Pizza</option>
-                                    <option value="Pepperoni Pizza">Pepperoni Pizza</option>
-                                    <option value="BBQ Chicken Pizza">BBQ Chicken Pizza</option>
-                                    <option value="Hawaiian Pizza.">Hawaiian Pizza.</option>
-                                    <option value="Meat-Lover's Pizza">Meat-Lover's Pizza</option>
-                                    <option value="Chicken Alfredo Pizza">Chicken Alfredo Pizza</option>
-                                 </select>
+                                <label for="pizza-size">Pizza size</label>
+                                <select class="form-control" id="pizza-size" required>
+                                        <option>Small</option>
+                                        <option>Medium</option>
+                                        <option>Large</option>
+                                    </select>
                             </div>
                             <div class="form-group">
-                                <label for="size">SIZE</label>
-                                <select class="custom-select my-1 mr-sm-2" id="size" required>
-                                    <option ></option>
-                                    <option>large</option>
-                                    <option>medium</option>
-                                    <option>small</option>
-                                </select>
+                                <label for="pizza-crust">Pizza Crust</label>
+                                <select class="form-control" id="pizza-crust" required>
+                                        <option>Gluten Free</option>
+                                        <option>Hand Tossed</option>
+                                        <option>Original</option>
+                                        <option>Pan</option>
+                                        <option>Stuffed</option>
+                                        <option>Thin</option>
+                                    </select>
                             </div>
-                            <label for="crust">CRUST</label>
-                            <select class="custom-select my-1 mr-sm-2" id="crust">
-                                    <option selected></option>
-                                    <option value="Crispy">Crispy</option>
-                                    <option value="Stuffed">Stuffed </option>
-                                    <option value="Gluten">Gluten</option>
-                            </select>
-                            <div class="form-group">
-                                <label for="number">NO OF PIZZA</label>
-                                <input type="number" class="form-control" name="pizza-no" id="pizza-no" placeholder="NO OF PIZZA">
-                            </div>
-                            <div class="toppingp">
-                                <label for="topping">TOPPINGS</label>
-                                <div class="row">
+                        </div>
 
-                                    <div class="form-check">
-                                        <input type="checkbox" class="form-check-input" id="mushroom" value="mushroom" name="topping">
-                                        <label class="form-check-label" for="mushroom">Mushrooms</label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input type="checkbox" class="form-check-input" id="sausage" value="sausage" name="topping">
-                                        <label for="topping">Sausage.</label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input type="checkbox" class="form-check-input" id="bacon" value="bacon" name="topping">
-                                        <label for="Bacon">Bacon</label>
-                                    </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label for="pizza-toppings">Extra Toppings</label>
+
+
+                                <div class="form-check">
+
+                                    <input type="checkbox" class="form-check-input" name="toppings" value="Bacon" id="bacon">
+                                    <label class="form-check-label" for="bacon">  Bacon</label>
                                 </div>
-                                <div class="row">
-                                    <div class="form-check">
-                                        <input type="checkbox" class="form-check-input" id="blackolive" value="blackolive" name="topping">
-                                        <label for="topping">Black olives</label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input type="checkbox" class="form-check-input" id="green papper" name="topping">
-                                        <label for="topping">Green peppers</label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input type="checkbox" class="form-check-input" id="onions" name="topping">
-                                        <label for="topping">Onions</label>
-                                    </div>
+                                <div class="form-check">
+
+
+                                    <input class="form-check-input" type="checkbox" name="toppings" value="Cheddar cheese" id="cheddar-cheese">
+                                    <label class="form-check-label" for="cheddar-cheese">Cheddar Cheese</label>
+                                </div>
+                                <div class="form-check">
+
+                                    <input class="form-check-input" type="checkbox" name="toppings" value="Ham" id="ham">
+
+                                    <label class="form-check-label" for="ham">Ham</label>
+                                </div>
+                                <div class="form-check">
+
+
+
+                                    <input class="form-check-input" type="checkbox" name="toppings" value="Mozarella cheese" id="mozarella-cheese">
+                                    <label class="form-check-label" for="mozarella-cheese">Mozarella Cheese</label>
+                                </div>
+                                <div class="form-check">
+
+
+                                    <input class="form-check-input" type="checkbox" name="toppings" value="Mushrooms" id="mushrooms">
+                                    <label class="form-check-label" for="mushrooms">Mushroom</label>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-warning" id="firstselect" onclick="orderNow()">ORDER</button>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-check">
 
-                        </form>
+
+                                <input class="form-check-input" type="checkbox" name="toppings" value="Olives" id="olives">
+                                <label class="form-check-label" for="olives">Olives</label>
+                            </div>
+                            <div class="form-check">
+
+
+                                <input class="form-check-input" type="checkbox" name="toppings" value="Onions" id="onions">
+                                <label class="form-check-label" for="onions">Onions</label>
+                            </div>
+                            <div class="form-check">
+
+
+                                <input class="form-check-input" type="checkbox" name="toppings" value="Parmesan cheese" id="parmesan-cheese">
+                                <label class="form-check-label" for="parmesan-cheese">Parmesan Cheese</label>
+                            </div>
+                            <div class="form-check">
+
+                                <input class="form-check-input" type="checkbox" name="toppings" value="Pepperoni" id="pepperoni">
+
+                                <label class="form-check-label" for="pepperoni">Pepperoni</label>
+                            </div>
+                            <div class="form-check">
+
+
+
+                                <input class="form-check-input" type="checkbox" name="toppings" value="Sausage" id="sausage">
+                                <label class="form-check-label" for="sausage">Sausage</label>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-3"></div>
 
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="pizza-number">Number of Pizza</label>
+                                <input type="number" id="number" class="form-control" name="number" placeholder="PizzaNo" min="1" value="1">
+                            </div>
+
+                            <div> <button type="submit" name="submitButton" class="btn btn-warning" id="placeorder">Place Order</button>
+                            </div>
+                        </div>
+                    </div>
             </div>
+            <div class="col-md-3"></div>
+            </form>
+    </div>
+
+
+
+
+    </section>
+    <div id="yourorder">
+        <div class="heading">
+            <h5>- - - - - - <img src="images/pizza (1).png" class="logo" alt=""> - - - - - -</h5>
+
+            <h2 class="clientname"> Here's your RECIEPT
+            </h2>
         </div>
-
-        <div id="checkoutdetails">
-
+        <div id="orderDetails">
             <div class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-8">
-                    <div class="jumbotron">
+                    <table class="table table-sm" id="orderTable">
+                        <thead>
+                            <tr>
+                                <th scope="col">Flavor</th>
+                                <th scope="col">Number</th>
+                                <th scope="col">Size</th>
+                                <th scope="col">Crust</th>
+                                <th scope="col">Topping</th>
+                                <th scope="col">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody id="ordersmade">
+                            <tr>
+                                <td class="pizza-flavor"></td>
+                                <td class="number"></td>
+                                <td class="pizza-size"></td>
+                                <td class="pizza-crust"></td>
+                                <td class="toppings"></td>
+                                <td class="pizzaTotal1" td>
+                            </tr>
+
+                    </table>
+                    <a href="#order" type="submit" name="addorder" onclick="addOrder()" class="btn btn-warning submit" id="addorder">Add Order</a>
+                    <button type="submit" name="checkout" onclick="deliveryOptions()" class="btn btn-warning" id="checkout">Checkout</button>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+        <br> </br>
+
+        <div class="row" id="deliver">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <div class="jumbotron">
+                    <div id="deliveryOptions">
                         <h5>- - - - - - <img src="images/pizza (1).png" class="logo" alt=""> - - - - - -</h5>
-                        <p>Hey
-                            <span class="clientname"></span> Here is your Order</p>
-                        <table class="table table-striped table-dark">
-                            <thead>
-                                <tr>
-                                    <th scope="col">NAME</th>
-                                    <th scope="col">FLAVOR</th>
-                                    <th scope="col">SIZE</th>
-                                    <th scope="col">CRUST</th>
-                                    <th scope="col">TOPPINGS</th>
-                                    <th scope="col">NUMBER</th>
-                                    <th scope="col">TOTAL</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="clientname">
-                                    </td>
-                                    <td class="flavor"></td>
-                                    <td class="crust"></td>
-                                    <td class="size"></td>
-                                    <td class="topping"></td>
-                                    <td class="number"></td>
-                                    <td class="total"></td>
 
 
-                                </tr>
 
-                            </tbody>
-                        </table>
-                        <button type="submit" class="btn btn-warning" id="thirdsubmit" onclick="addList() ">ADDLIST</button>
-                        <button type="submit " class="btn btn-warning " id="secondselect " onclick="checkOut() ">CHECKOUT</button>
+                        <p>Would you like to:</p>
+                        <button type="submit" name="pickup" onclick="pickUp()" class="btn btn-warning">Pick Up</button> <br> <br>
+                        <button type="submit" name="deliver" onclick="delivery()" class="btn btn-warning"> let Us Deliver</button>
                     </div>
                 </div>
-                <div class="col-md-2 "></div>
-            </div>
-        </div>
-        <div class="row ">
-
-            <div class="col-md-4 ">
-                <div id="deliveryoption">
-                    <div class="jumbotron">
+                <div class="col-md-4"></div>
 
 
-                        <h5>- - - - - - <img src="images/pizza (1).png " class="logo" alt=" "> - - - - - -</h5>
-                        <h2> Hey
-                            <span id="clientname "> here is your order.</span> Your total cost is <span class="total"></span>
-
-                        </h2>
-                        <button type="submit" class="btn btn-warning " id="pickup" onclick="pickUp()">PICK Up</button>
-                        <button type="submit" class="btn btn-warning " id="letsdeliver" onclick="letsDeliver()">LETs DELIVERY</button>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="col-md-4">
-                <div id="delivery">
-                    <div class="jumbotron">
-
-                        <h5>- - - - - - <img src="images/pizza (1).png " class="logo" alt=" "> - - - - - -</h5>
-                        <h2> Hey
-                            <span id="clientname "> here is your order.</span> Your total cost is <span class="total "></span> </h2>
-                        <p>your Order will be deliverd <span class="location"></span> Our rider will call you on <span class="phone"></span></p>
-
-                        <p>You were charged ksh 200 for the delivery <br> for more details contact us on +254723424164</p>
-                        <button type="submit" class="btn btn-warning" onclick="backToOrder()">CONFIRM</button>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div id="pick">
-                    <div class="jumbotron">
-
-                        <h5>- - - - - - <img src="images/pizza (1).png " class="logo" alt=" "> - - - - - -</h5>
-                        <h2> Hey
-                            <span id="clientname"> here is your order.</span> Your total cost is <span class="total "></span> </h2>
-                        <button type="submit " class="btn btn-warning" id="thirdsubmit" onclick="backToOrder()">CONFIRM</button>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div id="pickup2">
-                <div class="jumbotron ">
-
-                    <h5>- - - - - - <img src="images/pizza (1).png " class="logo " alt=" "> - - - - - -</h5>
-                    <p>PLEASE ENTER DELIVERY DELAILS </p>
-                    <div class="joker">
-                        <label for="location">LOCATION</label>
-                        <input type="text" class="form-group" name="location" id="location" required>
-                    </div>
-                    <div class="joker ">
-                        <label for=" phone">PHONE</label>
-                        <input type="number" class="form-group" id="phone" required>
-                    </div>
-                    <button type="submit" class="btn btn-warning" id="thirdsubmit" onclick="deliverNow()">CONFIRM</button>
-                </div>
 
             </div>
         </div>
+        <div id="delivery">
+            <div class="row ">
+                <div class="col-md-4 "></div>
+                <div class="col-md-4 ">
+                    <div class="jumbotron ">
+                        <form id="deliveryDetails">
+                            <h5>Please fill the form below</h5>
+                            <div class="form-group ">
+                                <div class="form-group ">
+                                    <label for="location ">Delivery location:</label>
+                                    <input type="text " class="form-control " id="location " placeholder="Street, County " required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number:</label>
+                                <input type="tel" id="phone" class="form-control" name="phone " required>
 
-        <div id="contact">
-
-
-            <div class="jumbotron">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h4>K_PIZZA WORLD</h4>
-                        <p>NAKURU,KENYA. <br>+254723424164
-                        </p>
-                    </div>
-
-
-
-                    <div class="col-md-4 ">
-                        <h4>K_PIZZA WORLD</h4>
-                        <p>NAIROBI,KENYA. <br>+254723424164
-                        </p>
-                    </div>
-
-
-
-                    <div class="col-md-4 ">
-                        <h4>LOCATION</h4>
-                        <a href="https://goo.gl/maps/Jc8Rz5Z5ToEposKM9 "><img src="/images/Screenshot from 2020-10-15 20-41-03.png " alt=" " width="250px "></a>
-
+                            </div>
+                            <button type="submit " class="btn btn-warning " id="delivery-details " onclick="deliveryConfirm()">Deliver</button>
+                        </form>
                     </div>
                 </div>
+                <div class="col-md-4 "></div>
+            </div>
+        </div>
+        <div id="pickUpConfirmation">
+            <div class="row">
+                <div class="col-md-4 "></div>
+                <div class="col-md-4 ">
+                    <div class="jumbotron ">
 
+
+                        <p>
+                            Your total price is
+
+                            <span class="totalPick"></span> Ksh.</p>
+                        <a href="#order" type="button " class="btn btn-warning " onclick="confirmOder()">CONFIRM</a>
+                    </div>
+                </div>
+                <div class="col-md-4 "></div>
+            </div>
+        </div>
+        <div id="deliveryConfirmation">
+            <div class="row ">
+                <div class="col-md-4 "></div>
+                <div class="col-md-4 ">
+                    <div class="jumbotron ">
+
+
+                        <p>
+                            <span class="name">
+                            </span>
+
+                            <br>The delivery fee to
+                            <span class="location "></span> is Ksh.200.
+
+                            <br>Total amount payable to the courier on delivery is Ksh.
+                            <span class="totalDel "></span>. our rider will call you on
+
+                            <span class="phone "></span>.</p>
+                        <a href="#order" type="button " class="btn btn-warning " onclick="confirmOder()">CONFIRM</a>
+                    </div>
+                </div>
+                <div class="col-md-4 "></div>
+            </div>
+        </div>
+
+    </div>
+    <div id="contact">
+
+
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>K_PIZZA WORLD</h4>
+                    <p>NAKURU,KENYA. <br>+254723424164
+                    </p>
+                </div>
+
+
+
+                <div class="col-md-4 ">
+                    <h4>K_PIZZA WORLD</h4>
+                    <p>NAIROBI,KENYA. <br>+254723424164
+                    </p>
+                </div>
+
+
+
+                <div class="col-md-4 ">
+                    <h4>LOCATION</h4>
+                    <a href="https://goo.gl/maps/Jc8Rz5Z5ToEposKM9 "><img src="/images/Screenshot from 2020-10-15 20-41-03.png " alt=" " width="250px "></a>
+
+                </div>
             </div>
 
-
-
-            <script src="js/jquery-3.5.1.js "></script>
-            <script src="js/script.js "></script>
-            <script src="js/bootstrap.min.js "></script>
         </div>
+
+
+
+        <script src="js/jquery-3.5.1.js "></script>
+        <script src="js/script.js"></script>
+        <script src="js/bootstrap.min.js "></script>
+    </div>
 </body>
 
 </html>
