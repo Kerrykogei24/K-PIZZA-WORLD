@@ -44,9 +44,10 @@ body {
 
 #about {
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 
-#order {
+#orde {
     background-image: url("../images/david-benes-zsRhTW3qrmo-unsplash.jpg");
     background-size: cover;
     height: 100vh;
@@ -70,7 +71,7 @@ body {
 #yourorder,
 #deliver,
 #pick,
-#deliveryConfirmation,
+#yourdetails,
 #pickUpConfirmation,
 #delivery {
     display: none;
@@ -148,10 +149,17 @@ h4,
 .order h5,
 h3 {
     text-align: center;
-    color: #fff;
 }
 
 #yourorder {
+    text-align: center;
+}
+
+.thumbnail {
+    background: white;
+}
+
+table td {
     text-align: center;
 }
 

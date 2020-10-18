@@ -104,8 +104,8 @@ function placeOrder() {
 
 }
 
-function makeDelivery() {
-    $("#deliveryConfirmation").toggle();
+function deliveryConfirm() {
+    $("#yourdetails").toggle(2000);
 
 
     var location = $("input#location").val();
@@ -125,7 +125,7 @@ $(document).ready(function() {
     });
     $("#deliveryDetails").submit(function(event) {
         event.preventDefault();
-        makeDelivery();
+        deliveryConfirm();
     });
 
 
@@ -174,7 +174,7 @@ function delivery() {
 }
 
 function deliveryConfirm() {
-    $("#deliveryConfirmation").toggle(2000);
+    $("#yourdetails").show();
     $("#delivery").hide();
 
 }
