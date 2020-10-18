@@ -76,6 +76,10 @@ body {
     display: none;
 }
 
+.top {
+    text-align: left;
+}
+
 
 /* 
 body {
