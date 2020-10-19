@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 .logo {
@@ -185,4 +186,38 @@ body {
     box-sizing: border-box;
 } */
 
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    body {
+        box-sizing: border-box;
+    }
+    .top {
+        display: inline;
+        margin-top: 0%;
+        font-size: small;
+        margin-bottom: 0px;
+    }
+    .place {
+        width: 70px;
+        margin-left: 200%;
+        margin-bottom: 80%;
+        height: 50px;
+        font-size: x-small;
+    }
+    .jumbotron {
+        height: 100vh;
+    }
+    table {
+        display: inline-block;
+        box-sizing: border-box;
+        font-size: small;
+        width: 20px;
+        text-align: left;
+    }
+    .div {
+        margin-top: 0%;
+    }
+    #placeorder {
+        height: 30px;
+        font-size: x-small;
+    }
+}
