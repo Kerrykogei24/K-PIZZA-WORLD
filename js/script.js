@@ -105,6 +105,8 @@ function placeOrder() {
 }
 
 function deliveryConfirm() {
+
+
     $("#yourdetails").toggle(2000);
 
 
