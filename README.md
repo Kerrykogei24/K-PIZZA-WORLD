@@ -11,7 +11,10 @@ This a website that tell potential pizza client more about K_PIZZA WORLD and the
 
 ## HOW TO USE
 
-- Visit the website at
+- Visit the website at https://github.com/Kerrykogei24/K-PIZZA-WORLD
+- this will take you to K_PIZZA WORLD HOME PAGE.
+- place order then will also deliver for you if you what to.
+- click ORDER and your are ready to enjoy delicious pizza with your farmily
 
 
 ## Technologies Used
