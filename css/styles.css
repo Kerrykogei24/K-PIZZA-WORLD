@@ -197,27 +197,11 @@ body {
         margin-bottom: 0px;
     }
     .place {
-        width: 70px;
-        margin-left: 200%;
         margin-bottom: 80%;
         height: 50px;
         font-size: x-small;
     }
     .jumbotron {
         height: 100vh;
-    }
-    table {
-        display: inline-block;
-        box-sizing: border-box;
-        font-size: small;
-        width: 20px;
-        text-align: left;
-    }
-    .div {
-        margin-top: 0%;
-    }
-    #placeorder {
-        height: 30px;
-        font-size: x-small;
     }
 }
