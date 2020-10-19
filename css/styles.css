@@ -23,9 +23,11 @@ body {
 }
 
 .land {
-    text-align: center;
     color: white;
-    margin-top: 30%;
+    margin-top: 60%;
+    text-align: center;
+    border: 2px solid #fff;
+    background-color: rgba(19, 15, 27, 0.9);
 }
 
 .land p {
@@ -165,6 +167,16 @@ table td {
 
 #bbq {
     width: 50px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+nav {
+    background-color: rgba(19, 15, 27, 0.9);
+    position: fixed;
 }
 
 
